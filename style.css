@@ -1,0 +1,54 @@
+* {
+  border-radius: 10%;
+  font-size: 20px;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+  background-color: rgb(65, 15, 65);
+  
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  width: 40vw;
+  background-color: rgb(99, 23, 99);
+  padding: 20px;
+}
+
+input {
+  width: 30vw;
+}
+
+label {
+  color: white;
+}
+
+button {
+  width: 15vw;
+  background-color: rgb(46, 10, 46);
+  color: white;
+  height: 4vh;
+}
+
+.cardsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  gap: 15px
+}
+
+.card {
+  background-color: rgb(99, 23, 99);
+  padding: 15px;
+}
+
+
